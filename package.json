@@ -1,0 +1,19 @@
+{
+  "name": "design-diff",
+  "version": "1.0.0",
+  "description": "A design-validation tool that diffs implemented UIs against Figma references to catch visual mismatches.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3"
+  }
+}
